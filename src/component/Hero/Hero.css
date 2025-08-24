@@ -1,0 +1,6 @@
+.hero-content img {
+    transition: 0.5s ease-out;
+}
+.hero {
+    place-items: initial !important;
+}
