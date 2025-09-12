@@ -10,7 +10,7 @@ const Projects = () => {
         //     .then(res => res.json())
         //     .then(data => setProjectData(data))
 
-        fetch('/Portfolio/projectsData.json')
+        fetch('/projectsData.json')
             .then(async res => {
                 if (!res.ok) {
                     // If file not found or server error
