@@ -26,5 +26,19 @@
     "title": "Boi Pora",
     "description": "A library app that contains list of books to read online",
     "technologies": ["React", "Tailwind CSS", "DaisyUI", "React Router"]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/3YhN3j6h/screencapture-charming-custard-2c26b9-netlify-app-category-01-2025-09-29-18-49-00.png",
+    "title": "Dragon News",
+    "description": "A News portal that contains latest news articles",
+    "technologies": ["React", "Tailwind CSS", "DaisyUI", "React Router", "Firebase"]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/tpkQXDKr/screencapture-effortless-cannoli-50e0a6-netlify-app-2025-09-29-18-49-47.png",
+    "title": "Winter Donation",
+    "description": "A charity website for winter cloth donation",
+    "technologies": ["React", "Tailwind CSS", "DaisyUI", "React Router", "Firebase"]
   }
 ]

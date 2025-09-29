@@ -2,23 +2,8 @@ import "./Project.css"
 const Project = ({ item }) => {
     const { id, image, title, description, technologies } = item;
     return (
-        // <div className="card bg-base-100 border-2 border-cyan-950 shadow-sm p-5 m-4 md:m-8 lg:m-10 w-96 sm:w-[90%]">
-        //     <figure className="h-52 other-pro-img">
-        //         <img key={id}
-        //             src={image}
-        //             alt="Shoes"
-        //             className="" />
-        //     </figure>
-        //     <div className="card-body px-0 ">
-        //         <h2 className="card-title font-bold">{title}</h2>
-        //         <p className="font-light">{description}</p>
-        //         <div className="flex flex-wrap gap-2">{
-        //             technologies.map((tec, idx) => <span className="font-bold" key={idx}>{tec}</span>)
-        //         }</div>
-        //     </div>
-        // </div>
-        <div className="card bg-base-100 border-2 border-cyan-950 shadow-sm p-5 m-4 md:m-8 lg:m-10 w-full sm:w-[90%] md:w-[400px]">
-            <figure className="h-52 other-pro-img">
+        <div className="card bg-base-100 border-2 border-cyan-950 shadow-sm p-5 m-4 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-auto h-96 flex flex-col">
+            <figure className="h-48 sm:h-52 md:h-56 lg:h-60 other-pro-img">
                 <img
                     key={id}
                     src={image}
@@ -26,13 +11,12 @@ const Project = ({ item }) => {
                     className="h-full w-full object-cover rounded-lg"
                 />
             </figure>
-
-            <div className="card-body px-0">
-                <h2 className="card-title font-bold">{title}</h2>
-                <p className="font-light">{description}</p>
-                <div className="flex flex-wrap gap-2">
+            <div className="card-body px-0 flex-1 flex flex-col">
+                <h2 className="card-title font-bold text-base sm:text-lg md:text-xl">{title}</h2>
+                <p className="font-light text-sm sm:text-base md:text-lg flex-1">{description}</p>
+                <div className="flex flex-wrap gap-2 mt-2">
                     {technologies.map((tec, idx) => (
-                        <span className="font-bold" key={idx}>
+                        <span className="font-bold text-xs sm:text-sm md:text-base" key={idx}>
                             {tec}
                         </span>
                     ))}

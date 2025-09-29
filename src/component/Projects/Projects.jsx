@@ -32,21 +32,29 @@ const Projects = () => {
         })
     }, [])
     return (
-        <div className="min-h-[90vh] my-10" id="work">
-            <h1 className='text-6xl font-bold py-10'>Projects.</h1>
-            {/* <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1" data-aos="fade-up">
-                {
-                    projectData.map(item => <Project key={item.id} item={item}></Project>)
-                }
-            </div> */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" data-aos="fade-up">
-                {projectData.map(item => (
-                    <Project key={item.id} item={item} />
+        <div className="min-h-[90vh] my-10 px-4" id="work">
+            <h1 className='text-4xl sm:text-5xl lg:text-6xl font-bold py-10'>Projects.</h1>
+            <div
+                className="flex flex-wrap justify-center w-full gap-6"
+                data-aos="fade-up"
+            >
+                {projectData.map((item, idx) => (
+                    <div
+                        key={item.id}
+                        className="
+                            flex-[1_1_100%] sm:flex-[1_1_100%] 
+                            md:flex-[1_1_45%] lg:flex-[1_1_30%] 
+                            max-w-full sm:max-w-full md:max-w-[50%] lg:max-w-[40%]
+                        "
+                        style={{ minWidth: 0 }}
+                    >
+                        <Project item={item} />
+                    </div>
                 ))}
             </div>
-
         </div>
     );
 };
 
+// grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6
 export default Projects;
