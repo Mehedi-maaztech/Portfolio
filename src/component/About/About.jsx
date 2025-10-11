@@ -16,27 +16,32 @@ import { useEffect } from "react";
 const About = () => {
 
     useEffect(() => {
-            AOS.init({
-                duration: 1500,
-                easing: "ease-in-out",
-                once: true,
-            })
-        }, [])
-        
+        AOS.init({
+            duration: 1500,
+            easing: "ease-in-out",
+            once: true,
+        })
+    }, [])
+
     return (
         <div className="min-h-[60vh]" id="about">
             <h1 className='text-6xl font-bold py-10'>About Me.</h1>
             <div className='flex flex-col lg:flex-row-reverse gap-8 mt-8 justify-between'>
-                {/* <div className='w-full lg:w-[35%] text-center lg:text-right pb-7 '>
-                    <img src={me} alt="" className="h-[300px] rounded border-2 border-cyan-950 scale-110 hover:scale-100 transition-all" />
-                </div> */}
-
-                <div className="w-full lg:w-[35%] text-center lg:text-right pb-7">
+                {/* <div className="w-full lg:w-[35%] text-center lg:text-right pb-7">
                     <img
                         data-aos="fade-left"
                         src={me}
                         alt="Mehedi Hasan"
                         className="h-[300px] rounded border-2 border-cyan-950 mx-auto lg:mx-0"
+                    />
+                </div> */}
+
+                <div className="w-full lg:w-2/5 pb-7 flex justify-center lg:justify-end">
+                    <img
+                        data-aos="fade-left"
+                        src={me}
+                        alt="Mehedi Hasan"
+                        className="w-64 h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded object-cover border-2 border-cyan-950 shadow-xl" loading="lazy"
                     />
                 </div>
 
