@@ -16,8 +16,8 @@ const Hero = () => {
         })
     }, [])
 
-    const pdfUrl = "https://drive.google.com/file/d/1UhHGvo3p9wrflHeQdQEW9Z5PSVIfgEcz/view?usp=sharing";
-    const pdfDownload = "https://drive.usercontent.google.com/u/0/uc?id=1UhHGvo3p9wrflHeQdQEW9Z5PSVIfgEcz&export=download";
+    const pdfUrl = "https://drive.google.com/file/d/1u4pgzV45UtEj43r7Q8mpzxrj-Y51fbOH/view";
+    const pdfDownload = "https://drive.usercontent.google.com/u/0/uc?id=1u4pgzV45UtEj43r7Q8mpzxrj-Y51fbOH&export=download";
     return (
         <div className="hero bg-base-100 min-h-[90vh]">
             <div className="hero-content flex-col lg:flex-row-reverse justify-between w-full">
