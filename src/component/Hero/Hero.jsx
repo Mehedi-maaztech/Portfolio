@@ -1,8 +1,9 @@
 import { GrLinkedin } from "react-icons/gr";
 import { FaGithub } from "react-icons/fa";
 import { ImFacebook2 } from "react-icons/im";
+import Lottie from "lottie-react";
 import "./Hero.css";
-import anime from "./animation/Main Scene (2).gif";
+import lottieanime from "../../assets/Main Scene.json";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -21,10 +22,13 @@ const Hero = () => {
     return (
         <div className="hero bg-base-100 min-h-[90vh]">
             <div className="hero-content flex-col lg:flex-row-reverse justify-between w-full">
-                <img
+                {/* <img
                     src={anime}
                     className="max-w-sm rounded-lg shadow-2xl ml-auto"
-                />
+                /> */}
+                <div>
+                    <Lottie animationData={lottieanime}></Lottie>
+                </div>
                 <div className='space-y-3' data-aos="fade-in">
                     <p className='text-2xl'>Hi, my name is</p>
                     <h1 className="text-8xl font-bold">Mehedi <span className='text-white'>Hasan.</span></h1>
@@ -51,7 +55,7 @@ const Hero = () => {
                         </button>
                     </div>
                     <div className="flex gap-5 pt-5 m-5">
-                        <a target="_black" href="https://github.com/Mehedi-maaztech?tab=repositories" className="text-[18px] hover:text-white transition-all"><FaGithub /></a>
+                        <a target="_black" href="https://github.com/Mehedi-maaztech" className="text-[18px] hover:text-white transition-all"><FaGithub /></a>
                         <a target="_black" href="https://www.linkedin.com/in/mehedi-hasan-200213202/" className="text-[18px] hover:text-white transition-all"><GrLinkedin /></a>
                         <a target="_black" href="https://www.facebook.com/share/173dGyPPG6/?mibextid=wwXIfr" className="text-[18px] hover:text-white transition-all"><ImFacebook2 /></a>
                     </div>

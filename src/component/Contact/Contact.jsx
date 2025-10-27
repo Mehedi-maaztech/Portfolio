@@ -28,7 +28,7 @@ const Contact = () => {
                             mehedihassan86999@gmail.com</a>
                     </div>
                     <div className="flex gap-5 pt-5 m-5">
-                        <a target="_black" href="https://github.com/Mehedi-maaztech?tab=repositories" className="text-[18px] hover:text-white transition-all border-2 p-2"><FaGithub /></a>
+                        <a target="_black" href="https://github.com/Mehedi-maaztech" className="text-[18px] hover:text-white transition-all border-2 p-2"><FaGithub /></a>
                         <a target="_black" href="https://www.linkedin.com/in/mehedi-hasan-200213202/" className="text-[18px] hover:text-white transition-all border-2 p-2"><GrLinkedin /></a>
                         <a target="_black" href="https://www.facebook.com/share/173dGyPPG6/?mibextid=wwXIfr" className="text-[18px] hover:text-white transition-all border-2 p-2"><ImFacebook2 /></a>
                     </div>

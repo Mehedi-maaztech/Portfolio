@@ -30,7 +30,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-soft gap-2" href="https://github.com/Mehedi-maaztech?tab=repositories" target="_blank"><FaGithub />
+                <a className="btn btn-soft gap-2" href="https://github.com/Mehedi-maaztech" target="_blank"><FaGithub />
                     Github</a>
             </div>
         </div>
