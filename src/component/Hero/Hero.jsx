@@ -27,7 +27,7 @@ const Hero = () => {
                     className="max-w-sm rounded-lg shadow-2xl ml-auto"
                 /> */}
                 <div>
-                    <Lottie animationData={lottieanime}></Lottie>
+                    <Lottie animationData={lottieanime} data-aos="fade-in"></Lottie>
                 </div>
                 <div className='space-y-3' data-aos="fade-in">
                     <p className='text-2xl'>Hi, my name is</p>
