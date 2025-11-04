@@ -40,5 +40,19 @@
     "title": "Winter Donation",
     "description": "A charity website for winter cloth donation",
     "technologies": ["React", "Tailwind CSS", "DaisyUI", "React Router", "Firebase"]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/3yRwz4FY/screencapture-sprightly-coffee-store-netlify-app-2025-11-04-23-11-16.png",
+    "title": "Coffee Store",
+    "description": "A coffee store website to buy your favourite coffee",
+    "technologies": ["React","React-router", "Tailwind CSS", "DaisyUI", "Firebase", "Node.js", "Express", "MongoDB"]
+  },
+    {
+    "id": 8,
+    "image": "https://i.ibb.co.com/B2BrT74K/screencapture-crowdcube-flan-netlify-app-2025-11-04-23-16-12.png",
+    "title": "Crowd Cube",
+    "description": "A crowdfunding platform to raise funds for your projects",
+    "technologies": ["React", "React-router", "Tailwind CSS", "DaisyUI", "Firebase", "Node.js", "Express", "MongoDB"]
   }
 ]
