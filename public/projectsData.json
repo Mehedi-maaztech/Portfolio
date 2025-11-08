@@ -1,58 +1,66 @@
 [
   {
     "id": 1,
-    "image": "https://i.ibb.co.com/3mX5CJTG/screencapture-awesome-gadget-hub-netlify-app-2025-08-23-22-10-54.png",
-    "title": "Gadgets",
-    "description": "A Gadget hub that has awesome gadgets in collection for customers",
-    "technologies": ["JavaScript", "React", "Tailwind CSS"]
-  },
-  {
-    "id": 2,
-    "image": "https://i.ibb.co.com/Pvj2ZRmV/screencapture-dream-players-11-fav-surge-sh-2025-08-23-21-52-43.png",
-    "title": "Dream Team",
-    "description": "An online Dream Player store where you can select your favourite players",
-    "technologies": ["React", "Tailwind CSS", "DaisyUI", "React Router"]
-  },
-  {
-    "id": 3,
-    "image": "https://i.ibb.co.com/fVjGmYzX/screencapture-testmtube-surge-sh-2025-08-23-21-44-44.png",
-    "title": "M Tube",
-    "description": "A customized content watching platform",
-    "technologies": ["JavaScript", "Tailwind CSS", "DaisyUI", "React Router"]
-  },
-  {
-    "id": 4,
-    "image": "https://i.ibb.co.com/kVxKPn8B/screencapture-boi-pora-matha-jhara-surge-sh-2025-08-23-21-42-39.png",
-    "title": "Boi Pora",
-    "description": "A library app that contains list of books to read online",
-    "technologies": ["React", "Tailwind CSS", "DaisyUI", "React Router"]
-  },
-  {
-    "id": 5,
-    "image": "https://i.ibb.co.com/3YhN3j6h/screencapture-charming-custard-2c26b9-netlify-app-category-01-2025-09-29-18-49-00.png",
-    "title": "Dragon News",
-    "description": "A News portal that contains latest news articles",
-    "technologies": ["React", "Tailwind CSS", "DaisyUI", "React Router", "Firebase"]
-  },
-  {
-    "id": 6,
-    "image": "https://i.ibb.co.com/tpkQXDKr/screencapture-effortless-cannoli-50e0a6-netlify-app-2025-09-29-18-49-47.png",
-    "title": "Winter Donation",
-    "description": "A charity website for winter cloth donation",
-    "technologies": ["React", "Tailwind CSS", "DaisyUI", "React Router", "Firebase"]
-  },
-  {
-    "id": 7,
-    "image": "https://i.ibb.co.com/3yRwz4FY/screencapture-sprightly-coffee-store-netlify-app-2025-11-04-23-11-16.png",
-    "title": "Coffee Store",
-    "description": "A coffee store website to buy your favourite coffee",
-    "technologies": ["React","React-router", "Tailwind CSS", "DaisyUI", "Firebase", "Node.js", "Express", "MongoDB"]
-  },
-    {
-    "id": 8,
     "image": "https://i.ibb.co.com/B2BrT74K/screencapture-crowdcube-flan-netlify-app-2025-11-04-23-16-12.png",
     "title": "Crowd Cube",
     "description": "A crowdfunding platform to raise funds for your projects",
-    "technologies": ["React", "React-router", "Tailwind CSS", "DaisyUI", "Firebase", "Node.js", "Express", "MongoDB"]
-  }
+    "technologies": ["React", "React-router", "Tailwind CSS", "DaisyUI", "Firebase", "Node.js", "Express", "MongoDB"],
+    "live_link" : "https://crowdcube-flan.netlify.app/"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/3yRwz4FY/screencapture-sprightly-coffee-store-netlify-app-2025-11-04-23-11-16.png",
+    "title": "Coffee Store",
+    "description": "A coffee store website to buy your favourite coffee",
+    "technologies": ["React","React-router", "Tailwind CSS", "DaisyUI", "Firebase", "Node.js", "Express", "MongoDB"],
+    "live_link" : "https://sprightly-coffee-store.netlify.app/"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/tpkQXDKr/screencapture-effortless-cannoli-50e0a6-netlify-app-2025-09-29-18-49-47.png",
+    "title": "Winter Donation",
+    "description": "A charity website for winter cloth donation",
+    "technologies": ["React", "Tailwind CSS", "DaisyUI", "React Router", "Firebase"],
+    "live_link" : "https://effortless-cannoli-50e0a6.netlify.app/"
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/3YhN3j6h/screencapture-charming-custard-2c26b9-netlify-app-category-01-2025-09-29-18-49-00.png",
+    "title": "Dragon News",
+    "description": "A News portal that contains latest news articles",
+    "technologies": ["React", "Tailwind CSS", "DaisyUI", "React Router", "Firebase"],
+    "live_link" : "https://charming-custard-2c26b9.netlify.app/"
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/3mX5CJTG/screencapture-awesome-gadget-hub-netlify-app-2025-08-23-22-10-54.png",
+    "title": "Gadgets",
+    "description": "A Gadget hub that has awesome gadgets in collection for customers",
+    "technologies": ["JavaScript", "React", "Tailwind CSS"],
+    "live_link" : "https://awesome-gadget-hub.netlify.app/"
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/kVxKPn8B/screencapture-boi-pora-matha-jhara-surge-sh-2025-08-23-21-42-39.png",
+    "title": "Boi Pora",
+    "description": "A library app that contains list of books to read online",
+    "technologies": ["React", "Tailwind CSS", "DaisyUI", "React Router"],
+    "live_link" : ""
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/Pvj2ZRmV/screencapture-dream-players-11-fav-surge-sh-2025-08-23-21-52-43.png",
+    "title": "Dream Team",
+    "description": "An online Dream Player store where you can select your favourite players",
+    "technologies": ["React", "Tailwind CSS", "DaisyUI", "React Router"],
+    "live_link" : "https://peaceful-bavarois-94ab76.netlify.app/"
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/fVjGmYzX/screencapture-testmtube-surge-sh-2025-08-23-21-44-44.png",
+    "title": "M Tube",
+    "description": "A customized content watching platform",
+    "technologies": ["JavaScript", "Tailwind CSS", "DaisyUI", "React Router"],
+    "live_link" : "https://mtubeph.netlify.app/"
+  }  
 ]

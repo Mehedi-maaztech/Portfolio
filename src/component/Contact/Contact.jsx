@@ -6,6 +6,7 @@ import { ImFacebook2 } from "react-icons/im";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 const Contact = () => {
     useEffect(() => {
         AOS.init({
@@ -15,7 +16,7 @@ const Contact = () => {
         })
     }, [])
     return (
-        <div className="my-10" id="contact" data-aos="fade-up"
+        <div className="min-h-screen bg-base-100 text-base-content flex flex-col justify-center px-6 md:px-10 lg:px-20 py-16" id="contact" data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom">
             <h1 className='text-6xl font-bold py-10'>Contact.</h1>
             <div className="flex flex-col sm:flex-col-reverse lg:flex-row gap-10">
@@ -28,26 +29,26 @@ const Contact = () => {
                             mehedihassan86999@gmail.com</a>
                     </div>
                     <div className="flex gap-5 pt-5 m-5">
-                        <a target="_black" href="https://github.com/Mehedi-maaztech" className="text-[18px] hover:text-white transition-all border-2 p-2"><FaGithub /></a>
-                        <a target="_black" href="https://www.linkedin.com/in/mehedi-hasan-200213202/" className="text-[18px] hover:text-white transition-all border-2 p-2"><GrLinkedin /></a>
-                        <a target="_black" href="https://www.facebook.com/share/173dGyPPG6/?mibextid=wwXIfr" className="text-[18px] hover:text-white transition-all border-2 p-2"><ImFacebook2 /></a>
+                        <Link target="_black" to="https://github.com/Mehedi-maaztech" className="text-[18px] hover:text-white transition-all border-2 p-2"><FaGithub /></Link>
+                        <Link target="_black" to="https://www.linkedin.com/in/mehedi-hasan-200213202/" className="text-[18px] hover:text-white transition-all border-2 p-2"><GrLinkedin /></Link>
+                        <Link target="_black" to="https://www.facebook.com/share/173dGyPPG6/?mibextid=wwXIfr" className="text-[18px] hover:text-white transition-all border-2 p-2"><ImFacebook2 /></Link>
                     </div>
                 </div>
                 <div className="flex-1">
                     <form>
                         <div className="border-b border-white/10 pb-12">
                             <h2 className="text-base/7 font-semibold text-white">Personal Information</h2>
-                            <p className="mt-1 text-sm/6 text-gray-400">Use a permanent address where you can receive mail.</p>
+                            {/* <p className="mt-1 text-sm/6 text-gray-400">Use a permanent address where you can receive mail.</p> */}
 
                             <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                                 <div className="sm:col-span-3">
-                                    <label htmlFor="first-name" className="block text-sm/6 font-medium text-white">
-                                        First name
+                                    <label className="block text-sm/6 font-medium text-white">
+                                        Name
                                     </label>
                                     <div className="mt-2">
                                         <input
-                                            id="first-name"
-                                            name="first-name"
+                                            id="name"
+                                            name="name"
                                             type="text"
                                             autoComplete="given-name"
                                             className="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-cyan-950 sm:text-sm/6"
@@ -56,14 +57,14 @@ const Contact = () => {
                                 </div>
 
                                 <div className="sm:col-span-3">
-                                    <label htmlFor="last-name" className="block text-sm/6 font-medium text-white">
-                                        Last name
+                                    <label className="block text-sm/6 font-medium text-white">
+                                        email
                                     </label>
                                     <div className="mt-2">
                                         <input
-                                            id="last-name"
-                                            name="last-name"
-                                            type="text"
+                                            id="email"
+                                            name="email"
+                                            type="email"
                                             autoComplete="family-name"
                                             className="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-cyan-950 sm:text-sm/6"
                                         />
@@ -71,13 +72,13 @@ const Contact = () => {
                                 </div>
 
                                 <div className="sm:col-span-full">
-                                    <label htmlFor="last-name" className="block text-sm/6 font-medium text-white">
-                                        Last name
+                                    <label className="block text-sm/6 font-medium text-white">
+                                        Message
                                     </label>
                                     <div className="mt-2">
                                         <textarea
-                                            id="last-name"
-                                            name="last-name"
+                                            id="message"
+                                            name="message"
                                             type="text"
                                             autoComplete="family-name"
                                             className="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-cyan-950 sm:text-sm/6"
