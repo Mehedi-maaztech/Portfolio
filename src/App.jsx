@@ -1,11 +1,8 @@
-
 import About from "./component/About/About"
 import Contact from "./component/Contact/Contact"
 import Hero from "./component/Hero/Hero"
 import Navbar from "./component/Navbar/Navbar"
 import Projects from "./component/Projects/Projects"
-
-
 function App() {
  
   return (
