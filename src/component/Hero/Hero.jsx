@@ -18,9 +18,10 @@ const Hero = () => {
     }, []);
 
     const pdfUrl =
-        "https://drive.google.com/file/d/1u4pgzV45UtEj43r7Q8mpzxrj-Y51fbOH/view";
+        // "https://drive.google.com/file/d/1u4pgzV45UtEj43r7Q8mpzxrj-Y51fbOH/view";
+        "https://drive.google.com/file/d/188-ZcpQHR0H-9TFNVUCaD1TKGg6CpY4E/view";
     const pdfDownload =
-        "https://drive.usercontent.google.com/u/0/uc?id=1u4pgzV45UtEj43r7Q8mpzxrj-Y51fbOH&export=download";
+        "https://drive.usercontent.google.com/u/0/uc?id=188-ZcpQHR0H-9TFNVUCaD1TKGg6CpY4E&export=download";
 
     return (
         <section
